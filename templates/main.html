@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<title>Reddit Comment Guesser</title>
+<p1>
+
+By Marco Lipari, Andrew Tomajian, Roy Elia, James Wnek
+<br>
+For MAIS 202 Fall 2025
+<br>
+<br>
+Copy and paste a reddit comment and I'll guess what year it's from!
+<br>
+<br>
+
+<form method="POST">
+    <textarea id="my_textbox" name="my_textbox" rows="4" cols="50">{% if user_input %}{{ user_input }}{% endif %}</textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+</p1>
+</html>
